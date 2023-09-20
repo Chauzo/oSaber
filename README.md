@@ -1,4 +1,4 @@
-![cover](![image](https://github.com/Chauzo/oSaber/assets/70038848/d2713bd9-caa9-43b3-bac2-61f97a446c23))
+![cover](![image](https://github.com/Chauzo/oSaber/assets/70038848/ca23e572-c953-420f-886c-d9a3700e2890))
 
 ## :computer: Project
 
