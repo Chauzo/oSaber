@@ -1,40 +1,40 @@
-import { CloudArrowUp, CodeSimple, ToggleLeft, PaintBucket, DeviceMobile, GitFork } from 'phosphor-react-native';
+import { Money, ClockCounterClockwise, GlobeHemisphereWest, Gavel, Recycle, Grains } from 'phosphor-react-native';
 
 export const QUIZZES = [
   {
     id: '1',
-    title: 'Utilizando Estados',
+    title: 'Geografia de Moçambique ',
     level: 1,
-    svg: ToggleLeft,
+    svg: GlobeHemisphereWest,
   },
   {
     id: '2',
-    title: 'Utilizando Typescript',
+    title: 'História de Moçambique',
     level: 2,
-    svg: CodeSimple,
+    svg: ClockCounterClockwise,
   },
   {
     id: '3',
-    title: 'Utilizando Navigation',
+    title: 'Cultura Moçambicana',
     level: 2,
-    svg: GitFork,
+    svg: Grains,
   },
   {
     id: '4',
-    title: 'Styled Components',
+    title: 'Política e Governo Moçambicano',
     level: 3,
-    svg: PaintBucket,
+    svg: Gavel,
   },
   {
     id: '5',
-    title: 'Async Storage',
+    title: ' Economia de Moçambique',
     level: 2,
-    svg: CloudArrowUp,
+    svg: Money,
   },
   {
     id: '6',
-    title: 'React Native',
+    title: 'Meio Ambiente e Vida Selvagem',
     level: 1,
-    svg: DeviceMobile,
+    svg: Recycle,
   },
 ];

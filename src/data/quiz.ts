@@ -1,110 +1,194 @@
 export const QUIZ = [
   {
     id: '1',
-    title: 'Utilizando Estados',
+    title: 'Geografia de Moçambique ',
     level: 1,
     questions: [
       {
-        title: 'Os Hooks são uma forma de trabalharmos com funções no React em vez de classes. useState e useEffect são exemplos de hooks bem utilizados. Porém, ainda não é possível criar nossos próprios hooks.',
+        title: 'Moçambique é um país localizado na América do Sul.',
         alternatives: [
           'Verdadeiro',
           'Falso'
-        ],
-        correct: 0
-      },
-      {
-        title: 'A imutabilidade no React é muito importante porque se mutarmos diretamente o valor de um estado em vez de substituí-lo por um novo valor, não ocorre corretamente uma nova renderização do seu componente.',
-        alternatives: [
-          'Verdadeiro',
-          'Falso'
-        ],
-        correct: 0
-      },
-      {
-        title: 'Sobre a renderização no React, assinale a alternativa incorreta:',
-        alternatives: [
-          'Há dois casos comuns em que um componente React é renderizado: a renderização inicial do componente e atualizações de estado.',
-          'As re-renderizações normalmente não recriam todos os componentes como a renderização inicial',
-          'Uma atualização de um estado de um componente pai pode ocasionar a re-renderização de um componente filho (aninhado).',
-          'O React não segue um fluxo definido ao renderizar uma tela, podendo variar bastante as etapas do processo.'
-        ],
-        correct: 0  
-      },
-    ]
-  },
-  {
-    id: '2',
-    title: 'Utilizando Typescript',
-    level: 2,
-    questions: [
-      {
-        title: "Que tipo de atribuição é esta variável, `const fullName: string = 'Dylan Israel';`?",
-        alternatives: [
-          'Explicita',
-          'Implícita'
-        ],
-        correct: 0
-      },
-      {
-        title: "Qual é o tipo de `const exemplo = ['Dylan']`?",
-        alternatives: [
-          'unknown[]',
-          'string',
-          'string[]',
-          'any[]'
-        ],
-        correct: 2
-      },
-      {
-        title: "keyof pode ser usado com assinaturas de índice para extrair o tipo de índice.",
-        alternatives: [
-          'Verdadeiro',
-          'False',
-        ],
-        correct: 0
-      },
-    ]
-  },
-  {
-    id: '3',
-    title: 'React Navigation',
-    level: 2,
-    questions: [
-      {
-        title: 'Qual a melhor descrição para identificar o Stack Navigator?',
-        alternatives: [
-          'Adiciona um menu fixo na parte inferior do dispositivo, facilitando o acesso a telas utilizadas com mais frequência.',
-          'Ao abrir uma nova tela, essa nova tela é colocada no topo da pilha de navegação e ao voltar telas, as mesmas são removidas dessa pilha.',
-          'Adiciona um menu lateral, ocupando toda a altura do dispositivo. No primeiro momento esse menu fica escondido e você consegue abrir o menu arrastando a tela.'
         ],
         correct: 1
       },
       {
-        title: 'Ao “tipar” as rotas, você tem a vantagem de no momento da navegação saber se uma rota recebe parâmetros ou não e qual o formato dos parâmetros.',
+        title: 'O Oceano Índico banha a costa leste de Moçambique.',
         alternatives: [
-          'Verdadeiro.',
+          'Verdadeiro',
           'Falso'
         ],
         correct: 0
       },
       {
-        title: 'Sobre o NavigationContainer é correto afirmar.',
+        title: 'A capital de Moçambique é Maputo.',
         alternatives: [
-          'O NavigationContainer é o componente no qual criamos uma rota na aplicação, passando para ele as propriedades "name" e "component".',
-          'O NavigationContainer  é um “hook” exportado de dentro do  react navigation que nos permite acessar funções como o "navigate" e o "goBack".',
-          'O NavigationContainer é um contexto que compartilha com nossa aplicação, todas as rotas e propriedades de navegação.'
+          'Verdadeiro',
+          'Falso'
+        ],
+        correct: 0
+      },
+      {
+        title: 'Moçambique nao faz fronteira com a Tanzânia.',
+        alternatives: [
+          'Verdadeiro',
+          'Falso'
+        ],
+        correct: 1
+      },
+      {
+        title: 'Rio Save é o rio mais longo de Moçambique.',
+        alternatives: [
+          'Verdadeiro',
+          'Falso'
+        ],
+        correct: 1
+      },
+      {
+        title: 'Moçambique possui uma costa no Oceano Atlântico.',
+        alternatives: [
+          'Verdadeiro',
+          'Falso'
+        ],
+        correct: 1
+      },
+      
+    ]
+  },
+  {
+    id: '2',
+    title: 'História de Moçambique',
+    level: 1,
+    questions: [
+      {
+        title: "Em que ano Moçambique conquistou sua independência de Portugal?",
+        alternatives: [
+          '1964',
+          '1975',
+          '1980',
+          '1990'
+        ],
+        correct: 1
+      },
+      {
+        title: "Qual foi o conflito civil devastador que ocorreu em Moçambique após a independência?",
+        alternatives: [
+          'Guerra dos Trinta Anos',
+          'Guerra Civil Moçambicana',
+          'Revolta de Mau Mau',
+          'Guerra do Congo'
         ],
         correct: 2
+      },
+      {
+        title: "Quem foi o primeiro presidente de Moçambique após a independência",
+        alternatives: [
+          'Eduardo Mondlane',
+          'Filipe Nyusi',
+          'Joaquim Chissano',
+          'Armando Guebuza'
+        ],
+        correct: 2
+      },
+      {
+        title: "Qual foi o principal objetivo da FRELIMO durante a luta pela independência?",
+        alternatives: [
+          'Autonomia regional',
+          'Independência econômica',
+          'Igualdade racial',
+          'Unificação com a África do Sul'
+        ],
+        correct: 2
+      },
+      {
+        title: "Quem liderou a luta pela independência de Moçambique?",
+        alternatives: [
+          'Eduardo Mondlane',
+          'Nelson Mandela',
+          'Robert Mugabe',
+          'Samora Machel'
+        ],
+        correct: 3
+      },
+
+    ]
+  },
+  {
+    id: '3',
+    title: 'Cultura Moçambicana',
+    level: 2,
+    questions: [
+      {
+        title: 'Qual é a dança tradicional de Moçambique conhecida por suas batidas de pés rápidas?',
+        alternatives: [
+          'Marrabenta',
+          'Kwassa Kwassa',
+          'Makossa'
+        ],
+        correct: 0
+      },
+      {
+        title: 'Qual é o prato tradicional de Moçambique feito com frango, óleo de palma e legumes?',
+        alternatives: [
+          'Akara.',
+          'Galinha à Zambeziana',
+          'Frango Legumisado '
+        ],
+        correct: 1
+      },
+      {
+        title: 'Qual é a língua mais falada em Moçambique além do português?',
+        alternatives: [
+          'Inglês',
+          'Chuabo',
+          'Sena',
+          'Changana',         
+          'Ndau'
+        ],
+        correct: 3
+      },
+      {
+        title: ' Qual é o nome do famoso festival de música moçambicana que celebra a cultura e a diversidade do país?',
+        alternatives: [
+          'Festival de Jazz de Maputo',
+          'Festival Azgo',
+          'Festival da Marrabenta',
+          'Festival do Indico',         
+          'MozTech'
+        ],
+        correct: 1
+      },
+      {
+        title: 'Quem é o autor moçambicano que escreveu a obra "A Varanda do Frangipani"?',
+        alternatives: [
+          'Mia Couto',
+          'José Craveirinha',
+          'Paulina Chiziane',
+          'Noémia de Sousa',         
+          'Nenhum deles'
+        ],
+        correct: 0
       },
     ]
   },
   {
     id: '4',
-    title: 'Styled Components',
-    level: 3,
+    title: 'Política e Governo Moçambicano',
+    level: 2,
     questions: [
       {
-        title: 'CSS-in-JS é a estratégia de estilo pela qual o JavaScript é usado para estilizar componentes.',
+        title: 'Qual é o sistema de governo de Moçambique?',
+        alternatives: [
+          'República Parlamentar',
+          'Monarquia',
+          'Ditadura Militar',
+          'Democracia',
+          'Ditadura Militar'
+        ],
+        correct: 0
+      },
+      {
+        title: 'Moçambique é membro da Comunidade de Desenvolvimento da África Austral (SADC).',
         alternatives: [
           'Verdadeiro',
           'Falso'
@@ -112,54 +196,86 @@ export const QUIZ = [
         correct: 0
       },
       {
-        title: 'Assinale abaixo a alternativa que não corresponde a uma característica do Styled Components.',
+        title: 'Qual foi o principal desafio político que Moçambique enfrentou nas últimas décadas?',
         alternatives: [
-          'Realizar a importação default do styled e  e utilizá-lo para criar os componentes (ex.: styled.View).',
-          'É possível tanto criar componentes estilizados predefinidos com o "styled." quanto repassar componentes personalizados para ele por styled().',
-          'A forma de estilizar os componentes se assemelha bastante ao que utilizamos quando trabalhamos diretamente com CSS (letras minúsculas, separadas por hífen e com ponto e vírgula ao final).',
-          'É possível personalizar apenas as estilizações dos componentes (prop style) via styled, ou seja, não é possível configurar outras propriedades/atributos do componente.'
+          'Conflito com a Tanzânia',
+          'Conflito em Cabo Delgado',
+          'Corona Virus',
+          'Conflito armado com a RENAMO'
         ],
-        correct: 1
+        correct: 3
       },
       {
-        title: 'Com o Styled Components é possível isolar a estrutura do componente da sua estilização.',
+        title: 'Qual foi a causa do conflito armado em Cabo Delgado, uma província do norte de Moçambique, que atraiu atenção internacional?',
         alternatives: [
-          'Verdadeiro',
-          'Falso'
+          'Disputas territoriais com a Tanzânia',
+          'Conflito religioso entre cristãos e muçulmanos',
+          'Atividade de grupos extremistas islâmicos',
         ],
-        correct: 0
+        correct: 2
+      },
+      {
+        title: 'Moçambique é ________________________________________, onde múltiplos partidos políticos competem nas eleições e no processo democrático.',
+        alternatives: [
+          'uma monarquia absoluta',
+          'uma república presidencialista',
+          'um estado comunista',
+          'um estado teocrático',
+          'uma república multipartidária'
+        ],
+        correct: 4
       },
     ]
   },
   {
     id: '5',
-    title: 'Local Storage',
+    title: 'Economia de Moçambique',
     level: 2,
     questions: [
       {
-        title: 'Qual dos seguintes métodos salva informações no AsyncStorage?',
+        title: 'Qual é a moeda oficial de Moçambique?',
         alternatives: [
-          'AsyncStorage.removeItem',
-          'AsyncStorage.setItem',
-          'AsyncStorage.getItem'
+          'Dólar dos EUA',
+          'Metical',
+          'Kwacha'
         ],
         correct: 1
       },
       {
-        title: 'O que melhor descreve o PropDrilling?',
+        title: 'A agricultura é um setor importante na economia de Moçambique.',
         alternatives: [
-          'Estratégia onde você repassa propriedades entre componentes até você chegar no componente desejado.',
-          'Estratégia onde você salva informações localmente no dispositivo (storage) e acessar quando precisar.',
-          'Estratégia onde você compartilha informações entre componentes através de contextos (Context API).'
+          'Verdadeiro',
+          'Falso'
         ],
-        correct: 1
+        correct: 0
       },
       {
-        title: 'Qual a maneira correta de salvar objetos no AsyncStorage?',
+        title: 'Quais são os principais produtos de exportação de Moçambique?',
         alternatives: [
-          "await AsyncStorage.setItem('@app:key', { id: 1, name: 'Item 1' });",
-          "await AsyncStorage.getItem('@app:key', JSON.stringify({ id: 1, name: 'Item 1' }));",
-          "await AsyncStorage.setItem('@app:key', JSON.stringify({ id: 1, name: 'Item 1' }));"
+          "Petróleo e diamantes",
+          "Café e cacau",
+          "Carvão e madeira",
+          "Carvão e gás natural"
+        ],
+        correct: 3
+      },
+      {
+        title: 'Moçambique é conhecido por suas praias e turismo. Qual cidade costeira é um importante destino turístico?',
+        alternatives: [
+          "Beira",
+          "Nampula",
+          "Pemba",
+          "Inhambane"
+        ],
+        correct: 2
+      },
+      {
+        title: 'Qual é o impacto significativo que o ciclone Idai teve em Moçambique em 2019?',
+        alternatives: [
+          "Surto de Ebola",
+          "Inundação devastadora",
+          "Queda de economia",
+          "Terremoto destrutivo"
         ],
         correct: 2
       },
@@ -167,46 +283,56 @@ export const QUIZ = [
   },
   {
     id: '6',
-    title: 'React Native',
-    level: 1,
+    title: 'Meio Ambiente e Vida Selvagem',
+    level: 3,
     questions: [
       {
-        title: 'Assinale a alternativa correta sobre React Native:',
+        title: 'Qual é a área total aproximada das áreas de conservação de vida selvagem em Moçambique?',
         alternatives: [
-          'React Native é um framework Javascript baseado no React capaz de criar aplicações apenas para Android e iOS.',
-          'Diferentemente do React, o React Native é construído totalmente pela comunidade e não tem nenhuma relação com o Facebook.',
-          'Com o React Native você consegue manter quase toda a sua aplicação pelo Javascript e manipular código nativo caso necessário.',
-          'Apesar do destaque do ReactJS na Web, o React Native não é muito utilizado atualmente no mercado de trabalho da área mobile.'
+          '5.000 hectares',
+          '500.000 hectares',
+          '5 milhões de hectares',
+          '50 milhões de hectares'
         ],
         correct: 2
       },
       {
-        title: 'Assinale a alternativa incorreta sobre React Native CLI e Expo',
+        title: 'Quais são os principais desafios enfrentados pela conservação da vida selvagem em Moçambique?',
         alternatives: [
-          'Tanto com React Native CLI quanto com Expo é possível criar aplicações para iOS e Android.',
-          'React Native CLI é a maneira mais "crua" de se criar um projeto React Native. Já o Expo traz mais funcionalidades em cima dessa base, por exemplo o Expo Go.',
-          'Com o Expo é possível testar aplicações iOS pelo Expo Go caso você tenha um dispositivo físico iOS mesmo que não tenha um sistema macOS, o que não é possível pela React Native CLI.',
-          'A documentação oficial do React Native recomenda apenas a React Native CLI, nem chegando a mencionar o Expo.'
+          'Urbanização descontrolada e poluição',
+          'Caça furtiva e desmatamento',
+          'Conflitos com comunidades indígenas',
+          'Mudanças climáticas e turismo excessivo'
         ],
-        correct: 3
+        correct: 1
       },
       {
-        title: 'Sobre o Expo, assinale a alternativa correta:',
+        title: 'Qual é o nome do maior parque nacional de Moçambique, que abriga uma rica diversidade de vida selvagem, incluindo elefantes, leões e leopardos?',
         alternatives: [
-          'Expo tem dois caminhos tradicionais ao criar um projeto: Managed Workflow e Bare Workflow.',
-          'Managed Workflow é a maneira de criar projetos onde desde o início você tem acesso ao seu código nativo.',
-          'Com o Bare Workflow você não pode utilizar em nenhum momento o Expo Go.',
-          'A configuração do ambiente React Native para Managed Workflow é mais complexa do que para Bare Workflow'
+          'Parque Nacional de Gorongosa',
+          'Parque Nacional de Bazaruto',
+          'Parque Nacional de Quirimbas',
+          'Kruger Park'
         ],
-        correct: 3
+        correct: 0
       },
       {
-        title: 'Sobre componentização em React Native, escolha a alternativa incorreta:',
+        title: 'Quais são as principais espécies de animais ameaçadas de extinção em Moçambique devido à caça furtiva?',
         alternatives: [
-          'Componentizar é uma forma de reaproveitar trechos de código em vários locais do seu código.',
-          'Uma das vantagens da componentização é simplificar um componente muito complexo em múltiplos componentes menores, facilitando assim na manutenção do código.',
-          'Apesar de ajudar no reaproveitamento e simplificação do código, componentizar reduz a produtividade e legibilidade do projeto.',
-          'Nenhuma está correta.'
+          'Leões e hipopótamos',
+          'Rinocerontes e elefantes',
+          'Girafas e zebras',
+          'Crocodilos e hienas'
+        ],
+        correct: 1
+      },
+      {
+        title: 'Qual é o nome do projeto de conservação de tartarugas marinhas em Moçambique que visa proteger essas espécies ameaçadas?',
+        alternatives: [
+          'Projeto OceanWatch',
+          'Projeto Tartaruga Marinha',
+          'Projeto Salvar Tartarugas',
+          'Projeto Tartaruga Viva'
         ],
         correct: 3
       },
