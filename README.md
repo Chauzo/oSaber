@@ -5,6 +5,13 @@
 Quiz app in React Native focusing on animations and micro interactions.
 
 <div align="center">
+  ![image](https://github.com/Chauzo/oSaber/assets/70038848/5722fba0-5215-433c-9421-85b0b1f223cf)
+  ![image](https://github.com/Chauzo/oSaber/assets/70038848/3e77b9f8-526d-45da-ae58-7d61f54c0883)
+  ![image](https://github.com/Chauzo/oSaber/assets/70038848/ffd5c9c9-a2e9-446a-8bc7-52193c1797e0)
+  ![image](https://github.com/Chauzo/oSaber/assets/70038848/ce28186c-85d4-436a-a76a-9f6f151f9386)
+
+
+
   <video src="https://user-images.githubusercontent.com/22561893/230719225-0eda7d9b-cab6-409a-a9f9-7ec8c1ec7ecd.MP4" width="400" />
 </div>
 
