@@ -1,14 +1,18 @@
-![cover](https://github.com/Chauzo/oSaber/assets/70038848/c3ecd85f-69ec-4344-af3f-9ac04647d102)
-
+<div align="center">
+  ![cover](https://github.com/Chauzo/oSaber/assets/70038848/c3ecd85f-69ec-4344-af3f-9ac04647d102)
+</div>div>
 ## :computer: Project
 
 Quiz app in React Native focusing on animations and micro interactions.
 
 <div align="center">
-  ![image](https://github.com/Chauzo/oSaber/assets/70038848/5722fba0-5215-433c-9421-85b0b1f223cf)
-  ![image](https://github.com/Chauzo/oSaber/assets/70038848/3e77b9f8-526d-45da-ae58-7d61f54c0883)
-  ![image](https://github.com/Chauzo/oSaber/assets/70038848/ffd5c9c9-a2e9-446a-8bc7-52193c1797e0)
-  ![image](https://github.com/Chauzo/oSaber/assets/70038848/ce28186c-85d4-436a-a76a-9f6f151f9386)
+  <image src="https://github.com/Chauzo/oSaber/assets/70038848/b1bdffd7-4627-4370-824f-29c87ea09d27" />
+![6](https://github.com/Chauzo/oSaber/assets/70038848/b1bdffd7-4627-4370-824f-29c87ea09d27)
+![5](https://github.com/Chauzo/oSaber/assets/70038848/3d57f6a0-3573-49af-83b4-b5b34ef7f21f)
+![4](https://github.com/Chauzo/oSaber/assets/70038848/203c6e26-e9aa-49e4-acb1-465910db8771)
+![3](https://github.com/Chauzo/oSaber/assets/70038848/7d1b9a11-2be2-46c7-b5b0-70825381753b)
+![2](https://github.com/Chauzo/oSaber/assets/70038848/58301c68-e60e-4249-b338-2e98e0ada53d)
+![1](https://github.com/Chauzo/oSaber/assets/70038848/a2d5e723-ab61-412e-a1fc-d84f328da31c)
 
 
 
